@@ -5,7 +5,7 @@ def determinarPrecio(escrito,oral):
         precio = 400
     elif nivel == 2:
         precio = 450
-    elif nivel == 1>
+    elif nivel == 1:
         precio = 300
     return precio
 
