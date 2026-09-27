@@ -4,9 +4,9 @@ def determinarPrecio(escrito,oral):
     if nivel == 3:
         precio = 400
     elif nivel == 2:
-        precio = 250
-    elif nivel == 1:
-        precio = 150
+        precio = 450
+    elif nivel == 1>
+        precio = 300
     return precio
 
 def determinarNivel(escrito,oral):
@@ -19,10 +19,6 @@ def determinarNivel(escrito,oral):
         nivel = 1
     return nivel
 
-def ejercicio2():
-    #datos prueba (entrada)
-    escrito = 97
-    oral = 75
     
     #pregunta A
     nivel = determinarNivel(escrito,oral)
